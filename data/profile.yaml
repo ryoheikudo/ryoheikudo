@@ -10,9 +10,9 @@ availability:
   open_to_remote: true
   open_to_freelance: true
 
-# primary   = 日常的に使う
-# working   = 実務経験あり
-# familiar  = 趣味 / 少し触った
+# primary   = frequently used
+# working   = professional experience
+# familiar  = personal / limited experience
 
 skills:
   languages:
@@ -25,7 +25,7 @@ skills:
     - name: Java
       level: working
       frameworks:
-        - SpringBoot
+        - Spring Boot
 
     - name: Python
       level: working
@@ -50,8 +50,7 @@ contact:
 
 education:
   - institution: Aoyama Gakuin University
-    faculty: Economics
-    degree: Bachelor's
+    degree: Bachelor of Economics
     start: 2018
     end: 2022
     location: Tokyo, Japan
@@ -66,23 +65,24 @@ experience:
       - Next.js
       - FastAPI
     description:
-      - Developed web services using Python, TypeScript
+      - Developed web applications using Python and TypeScript
+      - Implemented backend APIs and frontend interfaces
 
-  - company: LINE Yahoo
+  - company: LINE Yahoo (LY Corporation)
     role: Frontend Engineer
     type: full-time
     start: 2022
     end: 2025-10
-    note: Joined when the company was Yahoo Japan
+    note: Joined when the company operated as Yahoo Japan
     tech:
       - TypeScript
       - Node.js
       - GraphQL
     description:
       - Developed frontend systems for large-scale web services
-      - Worked with TypeScript-based frontend architecture
+      - Built maintainable frontend architecture using TypeScript
 
-  - company: LINE Yahoo
+  - company: LINE Yahoo (LY Corporation)
     role: Software Engineer
     type: full-time
     start: 2025-10
@@ -92,10 +92,11 @@ experience:
       - Node.js
       - GraphQL
       - Java
-      - SpringBoot
+      - Spring Boot
     description:
-      - Work in a cross-organizational engineering team
-      - Develop both frontend and backend systems
+      - Develop systems in a cross-organizational engineering team
+      - Work on both frontend and backend components
+      - Contribute to shared platform development across multiple teams
 
 projects:
   featured: []

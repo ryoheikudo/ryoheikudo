@@ -21,7 +21,7 @@ Experienced in building web applications using **TypeScript, Java, and Python**.
 
 ### Working
 - **Java**
-  - SpringBoot
+  - Spring Boot
 - **Python**
   - FastAPI
 
@@ -35,23 +35,24 @@ Experienced in building web applications using **TypeScript, Java, and Python**.
 
 ## 💼 Experience
 
-### Software Engineer — LINE Yahoo
+### Software Engineer — LINE Yahoo (LY Corporation)
 2025-10 – Present
 
-Tech: TypeScript · Node.js · GraphQL · Java · SpringBoot
+Tech: TypeScript · Node.js · GraphQL · Java · Spring Boot
 
-- Work in a cross-organizational engineering team
-- Develop both frontend and backend systems
+- Develop systems in a cross-organizational engineering team
+- Work on both frontend and backend components
+- Contribute to shared platform development across multiple teams
 
 ---
 
-### Frontend Engineer — LINE Yahoo
+### Frontend Engineer — LINE Yahoo (LY Corporation)
 2022 – 2025-10
 
 Tech: TypeScript · Node.js · GraphQL
 
 - Developed frontend systems for large-scale web services
-- Worked with TypeScript-based frontend architecture
+- Built maintainable frontend architecture using TypeScript
 
 ---
 
@@ -60,7 +61,8 @@ Tech: TypeScript · Node.js · GraphQL
 
 Tech: Next.js · FastAPI
 
-- Developed web services using Python, TypeScript
+- Developed web applications using Python and TypeScript
+- Implemented backend APIs and frontend interfaces
 
 
 ---
@@ -68,7 +70,7 @@ Tech: Next.js · FastAPI
 ## 🎓 Education
 
 **Aoyama Gakuin University**  
-Economics  
+Bachelor of Economics  
 2018 – 2022
 
 ---

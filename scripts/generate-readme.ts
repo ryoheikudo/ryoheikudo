@@ -65,7 +65,7 @@ function renderEducation(education) {
   return education
     .map(e => {
       return `**${e.institution}**  
-${e.faculty}  
+${e.degree}  
 ${e.start} – ${e.end}`
     })
     .join("\n\n")
