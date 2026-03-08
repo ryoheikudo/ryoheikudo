@@ -3,6 +3,12 @@ import yaml from "js-yaml"
 
 const profile = yaml.load(fs.readFileSync("data/profile.yaml", "utf8"))
 
+const levelLabel = {
+  primary: "メイン",
+  working: "実務経験あり",
+  familiar: "学習・個人利用"
+}
+
 function renderSkills(skills) {
   const groups = {
     primary: [],
@@ -19,7 +25,7 @@ function renderSkills(skills) {
   for (const level of ["primary", "working", "familiar"]) {
     if (!groups[level].length) continue
 
-    md += `### ${level.charAt(0).toUpperCase() + level.slice(1)}\n`
+    md += `### ${levelLabel[level]}\n`
 
     for (const lang of groups[level]) {
       md += `- **${lang.name}**\n`
@@ -42,13 +48,13 @@ function renderExperience(experience) {
     .slice()
     .reverse()
     .map(exp => {
-      const end = exp.end === "present" ? "Present" : exp.end
+      const end = exp.end === "present" ? "現在" : exp.end
       const tech = exp.tech?.join(" · ")
 
       let md = `### ${exp.role} — ${exp.company}\n`
       md += `${exp.start} – ${end}\n\n`
 
-      if (tech) md += `Tech: ${tech}\n\n`
+      if (tech) md += `使用技術: ${tech}\n\n`
 
       if (exp.description) {
         for (const d of exp.description) {
@@ -64,8 +70,8 @@ function renderExperience(experience) {
 function renderEducation(education) {
   return education
     .map(e => {
-      return `**${e.institution}**  
-${e.degree}  
+      return `**${e.institution}**
+${e.degree}
 ${e.start} – ${e.end}`
     })
     .join("\n\n")
@@ -73,37 +79,37 @@ ${e.start} – ${e.end}`
 
 const readme = `# ${profile.profile.name}
 
-**${profile.profile.title}**  
-${profile.profile.location} · ${profile.profile.timezone}
+**${profile.profile.title}**
+${profile.profile.location}
 
 ---
 
 ## 👋 About
 
-Software engineer based in ${profile.profile.location}.  
-Experienced in building web applications using **TypeScript, Java, and Python**.
+${profile.profile.location}を拠点に活動するソフトウェアエンジニアです。
+**TypeScript・Java・Python** を用いたWebアプリケーション開発を得意としています。
 
 ---
 
-## 🛠 Skills
+## 🛠 スキル
 
 ${renderSkills(profile.skills)}
 
 ---
 
-## 💼 Experience
+## 💼 職務経歴
 
 ${renderExperience(profile.experience)}
 
 ---
 
-## 🎓 Education
+## 🎓 学歴
 
 ${renderEducation(profile.education)}
 
 ---
 
-## 🔗 Links
+## 🔗 リンク
 
 - GitHub: ${profile.links.github}
 `

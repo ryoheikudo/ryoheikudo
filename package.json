@@ -5,10 +5,14 @@
   "type": "module",
   "scripts": {
     "generate": "node --experimental-strip-types scripts/generate-readme.ts",
-    "dev": "npm run generate"
+    "dev": "npm run generate",
+    "resume": "node --experimental-strip-types scripts/generate-resume.ts",
+    "resume:rirekisho": "node --experimental-strip-types scripts/generate-resume.ts --only=rirekisho",
+    "resume:shokumu": "node --experimental-strip-types scripts/generate-resume.ts --only=shokumu"
   },
   "dependencies": {
-    "js-yaml": "^4.1.1"
+    "js-yaml": "^4.1.1",
+    "puppeteer": "^24.0.0"
   },
   "devDependencies": {
     "@types/node": "^25.3.5",

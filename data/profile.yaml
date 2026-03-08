@@ -1,18 +1,14 @@
 profile:
-  name: Ryohei Kudo
-  title: Software Engineer
-  location: Japan
-  timezone: Asia/Tokyo
+  name: 工藤 遼平
+  name_kana: くどう りょうへい
+  title: ソフトウェアエンジニア
+  location: 東京都
   website: null
 
 availability:
   open_to_work: true
   open_to_remote: true
   open_to_freelance: true
-
-# primary   = frequently used
-# working   = professional experience
-# familiar  = personal / limited experience
 
 skills:
   languages:
@@ -49,54 +45,54 @@ contact:
   public_email: false
 
 education:
-  - institution: Aoyama Gakuin University
-    degree: Bachelor of Economics
-    start: 2018
-    end: 2022
-    location: Tokyo, Japan
+  - institution: 青山学院大学
+    degree: 経済学部 経済学科
+    start: 2018-04
+    end: 2022-03
+    location: 東京都
 
 experience:
-  - company: Web Engineering Internship
-    role: Web Engineer Intern
-    type: internship
-    start: 2021
-    end: 2022
+  - company: 不動産関連の会社
+    role: Webエンジニア インターン
+    type: インターンシップ
+    start: 2021-04
+    end: 2022-03
     tech:
       - Next.js
       - FastAPI
     description:
-      - Developed web applications using Python and TypeScript
-      - Implemented backend APIs and frontend interfaces
+      - 公開REITデータをPythonでHTML解析・構造化し、データベースへの格納バッチを実装
+      - Next.js / FastAPI を用いたWebアプリケーション開発に従事
 
-  - company: LINE Yahoo (LY Corporation)
-    role: Frontend Engineer
-    type: full-time
-    start: 2022
+  - company: LINEヤフー株式会社（LY Corporation）
+    role: フロントエンドエンジニア
+    type: 正社員
+    start: 2022-04
     end: 2025-10
-    note: Joined when the company operated as Yahoo Japan
+    note: 入社時はヤフー株式会社として在籍
     tech:
       - TypeScript
-      - Node.js
+      - Next.js
+      - NestJS
       - GraphQL
     description:
-      - Developed frontend systems for large-scale web services
-      - Built maintainable frontend architecture using TypeScript
+      - 大規模Webサービスのフロントエンド開発に要件定義から運用まで一気通貫で従事
+      - プロジェクトTLとして3コンポーネント・5〜6名規模の詳細設計を主導し、自身も1コンポーネントの実装を担当
+      - ログ出力の最適化によるインフラコスト削減に貢献
 
-  - company: LINE Yahoo (LY Corporation)
-    role: Software Engineer
-    type: full-time
+  - company: LINEヤフー株式会社（LY Corporation）
+    role: ソフトウェアエンジニア
+    type: 正社員
     start: 2025-10
     end: present
     tech:
       - TypeScript
       - Node.js
-      - GraphQL
       - Java
       - Spring Boot
     description:
-      - Develop systems in a cross-organizational engineering team
-      - Work on both frontend and backend components
-      - Contribute to shared platform development across multiple teams
+      - 複数チームにスポット参画し、リソース不足を補う形でフロントエンド・バックエンド開発を担当
+      - 各チームが自走できる組織づくりを目指す横断チームの一員として、開発課題の解決に貢献
 
 projects:
   featured: []
@@ -107,3 +103,13 @@ opensource:
 speaking: []
 
 writing: []
+
+licenses:
+  - name: 普通自動車第一種運転免許
+    date: 2018-08
+  - name: 統計検定 2級
+    date: 2020-11
+
+shokumu:
+  summary: |
+    Webアプリケーション開発に約4年携わってきました。インターン時代からTypeScript・Pythonを用いた開発を経験し、新卒入社後はLINEヤフー株式会社にて大規模Webサービスのフロントエンド開発に従事しました。プロジェクトTLとして詳細設計を主導した経験を持ち、要件定義から運用まで一気通貫で担当できるエンジニアです。TypeScriptを中心としたアーキテクチャ設計やGraphQLを活用したAPIインテグレーションに強みを持ちます。現職では複数チームをまたいでフロントエンド・バックエンド開発を担い、各チームの自走を促す横断的な開発支援を推進しています。

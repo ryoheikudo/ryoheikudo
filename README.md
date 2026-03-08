@@ -1,31 +1,31 @@
-# Ryohei Kudo
+# 工藤 遼平
 
-**Software Engineer**  
-Japan · Asia/Tokyo
+**ソフトウェアエンジニア**
+東京都
 
 ---
 
 ## 👋 About
 
-Software engineer based in Japan.  
-Experienced in building web applications using **TypeScript, Java, and Python**.
+東京都を拠点に活動するソフトウェアエンジニアです。
+**TypeScript・Java・Python** を用いたWebアプリケーション開発を得意としています。
 
 ---
 
-## 🛠 Skills
+## 🛠 スキル
 
-### Primary
+### メイン
 - **TypeScript**
   - Next.js
   - NestJS
 
-### Working
+### 実務経験あり
 - **Java**
   - Spring Boot
 - **Python**
   - FastAPI
 
-### Familiar
+### 学習・個人利用
 - **Go**
 - **Rust**
 
@@ -33,48 +33,48 @@ Experienced in building web applications using **TypeScript, Java, and Python**.
 
 ---
 
-## 💼 Experience
+## 💼 職務経歴
 
-### Software Engineer — LINE Yahoo (LY Corporation)
-2025-10 – Present
+### ソフトウェアエンジニア — LINEヤフー株式会社（LY Corporation）
+2025-10 – 現在
 
-Tech: TypeScript · Node.js · GraphQL · Java · Spring Boot
+使用技術: TypeScript · Node.js · Java · Spring Boot
 
-- Develop systems in a cross-organizational engineering team
-- Work on both frontend and backend components
-- Contribute to shared platform development across multiple teams
-
----
-
-### Frontend Engineer — LINE Yahoo (LY Corporation)
-2022 – 2025-10
-
-Tech: TypeScript · Node.js · GraphQL
-
-- Developed frontend systems for large-scale web services
-- Built maintainable frontend architecture using TypeScript
+- 複数チームにスポット参画し、リソース不足を補う形でフロントエンド・バックエンド開発を担当
+- 各チームが自走できる組織づくりを目指す横断チームの一員として、開発課題の解決に貢献
 
 ---
 
-### Web Engineer Intern — Web Engineering Internship
-2021 – 2022
+### フロントエンドエンジニア — LINEヤフー株式会社（LY Corporation）
+2022-04 – 2025-10
 
-Tech: Next.js · FastAPI
+使用技術: TypeScript · Next.js · NestJS · GraphQL
 
-- Developed web applications using Python and TypeScript
-- Implemented backend APIs and frontend interfaces
+- 大規模Webサービスのフロントエンド開発に要件定義から運用まで一気通貫で従事
+- プロジェクトTLとして3コンポーネント・5〜6名規模の詳細設計を主導し、自身も1コンポーネントの実装を担当
+- ログ出力の最適化によるインフラコスト削減に貢献
+
+---
+
+### Webエンジニア インターン — 不動産関連の会社
+2021-04 – 2022-03
+
+使用技術: Next.js · FastAPI
+
+- 公開REITデータをPythonでHTML解析・構造化し、データベースへの格納バッチを実装
+- Next.js / FastAPI を用いたWebアプリケーション開発に従事
 
 
 ---
 
-## 🎓 Education
+## 🎓 学歴
 
-**Aoyama Gakuin University**  
-Bachelor of Economics  
-2018 – 2022
+**青山学院大学**
+経済学部 経済学科
+2018-04 – 2022-03
 
 ---
 
-## 🔗 Links
+## 🔗 リンク
 
 - GitHub: https://github.com/ryoheikudo
