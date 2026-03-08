@@ -1,0 +1,108 @@
+profile:
+  name: Ryohei Kudo
+  title: Software Engineer
+  location: Japan
+  timezone: Asia/Tokyo
+  website: null
+
+availability:
+  open_to_work: true
+  open_to_remote: true
+  open_to_freelance: true
+
+# primary   = 日常的に使う
+# working   = 実務経験あり
+# familiar  = 趣味 / 少し触った
+
+skills:
+  languages:
+    - name: TypeScript
+      level: primary
+      frameworks:
+        - Next.js
+        - NestJS
+
+    - name: Java
+      level: working
+      frameworks:
+        - SpringBoot
+
+    - name: Python
+      level: working
+      frameworks:
+        - FastAPI
+
+    - name: Go
+      level: familiar
+
+    - name: Rust
+      level: familiar
+
+links:
+  github: https://github.com/ryoheikudo
+  twitter: null
+  linkedin: null
+  blog: null
+
+contact:
+  email: null
+  public_email: false
+
+education:
+  - institution: Aoyama Gakuin University
+    faculty: Economics
+    degree: Bachelor's
+    start: 2018
+    end: 2022
+    location: Tokyo, Japan
+
+experience:
+  - company: Web Engineering Internship
+    role: Web Engineer Intern
+    type: internship
+    start: 2021
+    end: 2022
+    tech:
+      - Next.js
+      - FastAPI
+    description:
+      - Developed web services using Python, TypeScript
+
+  - company: LINE Yahoo
+    role: Frontend Engineer
+    type: full-time
+    start: 2022
+    end: 2025-10
+    note: Joined when the company was Yahoo Japan
+    tech:
+      - TypeScript
+      - Node.js
+      - GraphQL
+    description:
+      - Developed frontend systems for large-scale web services
+      - Worked with TypeScript-based frontend architecture
+
+  - company: LINE Yahoo
+    role: Software Engineer
+    type: full-time
+    start: 2025-10
+    end: present
+    tech:
+      - TypeScript
+      - Node.js
+      - GraphQL
+      - Java
+      - SpringBoot
+    description:
+      - Work in a cross-organizational engineering team
+      - Develop both frontend and backend systems
+
+projects:
+  featured: []
+
+opensource:
+  contributions: []
+
+speaking: []
+
+writing: []

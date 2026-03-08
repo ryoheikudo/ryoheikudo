@@ -1,0 +1,17 @@
+{
+  "name": "ryoheikudo",
+  "version": "1.0.0",
+  "description": "GitHub profile",
+  "type": "module",
+  "scripts": {
+    "generate": "node --experimental-strip-types scripts/generate-readme.ts",
+    "dev": "npm run generate"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "typescript": "^5.9.3"
+  }
+}
